@@ -1,0 +1,12 @@
+ 1  cd (y pones la direccion del archivo donde guardaste del el office)
+
+ 2    setup /configure configuration.xml
+
+----------------------------------------------------------------------------------
+fondos con animados 
+Microsoft Store
+- Lively Wallpaper
+
+Barra de tareas Transparente
+Microsoft Store
+-TranslucebtTB
