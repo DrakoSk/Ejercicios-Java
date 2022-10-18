@@ -22,6 +22,7 @@ public class Boleta {
         int Cantidad = 0;
         double Subtotal;
         double Total;
+        double Total12;
         double Impuesto;
         double IGV=0.18;
         double Descuelto=0.1;
@@ -29,11 +30,13 @@ public class Boleta {
         Nombre=Prod.next();
         System.out.println("Cula es el precio unitario del producto; "+Nombre+"?");
         Precio=Prod.nextDouble();
+        System.out.println("Cunatas unidades del producto: "+Nombre+"desea llevar");
+        Cantidad=Prod.nextInt();
         Subtotal=Precio*Cantidad;
         Impuesto=Subtotal*IGV;
         Total=Subtotal+Impuesto;
         if (Total>5000){
-            double Total12 = (Total)-Total*Descuelto;
+            Total12 = (Total)-Total*Descuelto;
             System.out.println("""
                                -----------FACTURA-----------
                                Producto;""" +Nombre
